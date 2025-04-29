@@ -1,0 +1,26 @@
+#contenedor {
+    width: 700px;
+}
+
+#cabecera {
+    background-color: lightblue;
+    height: 100px;
+}
+
+#contenido {
+    float: left;
+    width: 550px;
+    background-color: lightyellow;
+    height: 400px;
+}
+
+#menu {
+    float: right;
+    width: 150px;
+    background-color: lightgray;
+    height: 400px;
+}
+
+#pie {
+    display: none;
+}
