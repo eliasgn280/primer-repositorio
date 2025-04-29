@@ -1,0 +1,7 @@
+En la Parte 1, lo que hice fue mover el menú a la derecha usando la propiedad de float. Básicamente, en lugar de que el menú esté pegado a la izquierda como estaba al principio, le indiqué que flote hacia la derecha. Así, el contenido queda de un lado y el menú se acomoda solo al costado, sin necesidad de cambiar el orden del HTML.
+
+En la Parte 2, para eliminar el menú, directamente le apliqué un estilo que hace que no se vea más (display: none). Esto no solo oculta el menú, sino que también libera el espacio que ocupaba. Entonces, para que no quede un hueco vacío, también ensanché el área del contenido principal para que ocupe todo el ancho del contenedor.
+
+En la Parte 3, cuando tuve que ocultar el pie de página, hice algo parecido: le puse display: none al pie. Como el pie estaba abajo de todo y no afectaba la posición de otros elementos, simplemente desapareció y no hizo falta ajustar nada más. El contenido y el menú siguieron quedando en el mismo lugar.
+
+Y en la Parte 4, para ocultar la cabecera, también usé display: none. Como la cabecera estaba arriba del contenido, al ocultarla el espacio que ocupaba desapareció, y el contenido junto con el menú automáticamente subieron para ocupar ese espacio.
